@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 
 public class TpC {
     public static void main(String[] args) {
-        HttpPost httpPost = new HttpPost("https://123m.ldygo.com/los/zuche-intf-login.graphicTokenImg?_channel_id=01");
+        HttpPost httpPost = new HttpPost("https://456m.ldygo.com/los/zuche-intf-login.graphicTokenImg?_channel_id=01");
         HttpResponse httpresponse = null;
         HttpClient httpClient = HttpClients.createDefault();
         try {

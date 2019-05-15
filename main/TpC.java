@@ -10,9 +10,12 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+ * 随便写
+ */
 public class TpC {
     public static void main(String[] args) {
-        HttpPost httpPost = new HttpPost("https://m.ldygo.com/los/zuche-intf-login.graphicTokenImg?_channel_id=01");
+        HttpPost httpPost = new HttpPost("https://456m.ldygo.com/los/zuche-intf-login.graphicTokenImg?_channel_id=01");
         HttpResponse httpresponse = null;
         HttpClient httpClient = HttpClients.createDefault();
         try {
